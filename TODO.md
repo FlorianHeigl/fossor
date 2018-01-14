@@ -1,7 +1,7 @@
 # TODO
 
 It is really the first commands I would often use, and easy to extend. That's nice.   
-Some things that seem to need improvement.
+But things that seem to need improvement....
 
 
 It's unfortunate that this runs in client-side python, instead of transferring & running some statically linked binary.
