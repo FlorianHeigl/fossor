@@ -6,13 +6,12 @@ But things that seem to need improvement....
 
 It's unfortunate that this runs in client-side python, instead of transferring & running some statically linked binary.
 (I.e. pushing it into a fd via ssh and executing right from there)
-There are a lot of cases where the remote end will not be able to execute something at all.   
-We need to check that fossor is able to reliably detect that it has encountered a situation where it failed to complete, and tells us so.
-We should also harden it as much as possible (use ramdisks, etc) so it will be able to complete in most edge cases.
+There are a lot of cases where the remote end will not be able to execute run stuff stored locally at all.   
+We need to check that fossor is able to reliably detect when it has encountered a situation where it failed to complete, and that it is able to tell us so.
+We should also harden it as much as possible (use available ramdisks, etc) so it will be able to complete in most edge cases.
 
 But - it makes sense to put it in place long before the hardening is finished.
 Just need to make sure there's a throttle on how often it can be run at all (incident storms, stuck on stale commands, etc)
-
 
 
 
