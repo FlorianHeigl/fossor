@@ -43,3 +43,9 @@ That's the whole point, right?
 
 * Should clean up after itself
 * Should handle errors in cleanup
+
+
+## WTFs
+
+Not to mention it needs the (awesome, but that's irrelevant) IOU Repo to be even usable.
+It's not like RH7/CentOS7 is a landmark of modern software, but to NOT run on the most recent most common non-joke distro is weird. Whichever Python 3.6 feature could be good enough to cut out like 60%+ of deployed OS around the world (i mean anything that doesn't run Py3.6 by default) is a fantastic move.
